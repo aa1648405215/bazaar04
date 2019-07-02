@@ -1,0 +1,132 @@
+.register-cnt{
+	position: relative;
+	width: 608px;
+	border: 1px solid #c2c0c0;
+	margin: 70px auto;
+	padding: 30px 105px 30px 105px;
+}
+.register-cnt h2{
+	margin: 0 auto 25px;
+	text-indent: -999px;
+	background: url(../img/register/1login-icon.png) no-repeat;
+	width: 432px;
+	height: 45px;
+	background-position: left -89px;
+}
+.register-cnt .other{
+	height: 66px;
+	line-height: 66px;
+	padding: 0 25px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #bfbfbf;
+}
+.register-cnt .other span{
+	display: inline-block;
+	font-size: 18px;
+	width: 210px;
+}
+.register-cnt .other a{
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	margin-left: 22px;
+	text-indent: -999px;
+	background: url(../img/register/1login-icon.png) no-repeat;
+}
+.register-cnt .other a.wx{
+	background-position: 0 -526px;
+}
+.register-cnt .other a.sina{
+	background-position: -83px -526px;
+}
+.register-cnt .other a.qq{
+	background-position: -164px -526px;
+}
+.form-box{
+	margin: 0 0 0 25px;
+}
+.form-box .items{
+	position: relative;
+	height: 38px;
+	line-height: 38px;
+	margin-bottom: 15px;
+}
+.form-box label{
+	display: inline-block;
+	width: 170px;
+	font-size: 16px;
+	vertical-align: middle;
+}
+.form-box label i{
+	display: inline-block;
+	color: red;
+	margin-left:3px ;
+}
+.form-box .common-input{
+	position: relative;
+	display: inline-block;
+	width: 303px;
+	height: 36px;
+	margin-right: 20px;
+	line-height: 36px;
+	background: #fafafa;
+	vertical-align: middle;
+}
+.form-box .common-input input{
+	position: absolute;
+	display: block;
+	width: 263px;
+	height: 36px;
+	line-height: 36px;
+	padding: 0 20px;
+	border: 1px solid #D8D8D8;
+	background: none;
+	z-index: 99;
+}
+.form-box .placeholder{
+	display: inline-block;
+	position: absolute;
+	left: 20px;
+	top: 1px;
+	font-size: 14px;
+	color: #888888;
+}
+.form-box .error01{
+	position: absolute;
+	width: 180px;
+	font-size: 12px;
+	display: none;
+	color: red;
+	vertical-align: middle;
+}
+.form-box .code-items{
+	height: 90px;
+}
+.form-box .code-items .common-input{
+	margin-bottom: 10px;
+}
+.form-box .code-items .yzm{
+	padding-left: 173px;
+	margin-right: 10px;
+}
+.form-box .common-btn{
+	display: block;
+	margin: 40px auto;
+	width: 180px;
+	height: 40px;
+	line-height: 40px;
+	color: white;
+	font-size: 18px;
+	text-align: center;
+	background: #f00b0b;
+	cursor: pointer;
+}
+.register-cnt .bt{
+	position: absolute;
+	bottom: 15px;
+	right: 40px;
+}
+.register-cnt .bt a{
+	cursor: pointer;
+	text-decoration:underline ;
+}

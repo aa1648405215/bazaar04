@@ -1,0 +1,154 @@
+.mask-layer{
+	position: fixed;
+	width: 100%;
+	height: 100%;	
+	background: url(../img/login/2mask-bg.png) 0 0 repeat;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: 9998;
+	display: none;
+}
+
+.login{
+	position: fixed;
+	height: 440px;	
+	width: 728px;
+	top: 50%;
+	left: 50%;
+	margin: -220px 0 0 -364px;
+	background: white;
+	box-shadow: 0 0 20px #555;
+	z-index: 9999;
+
+}
+.login input{
+	outline: 0 none;
+}
+.login .close, .login h2, .login .other a, .checkbox span{
+	background: url(../img/login/1login-icon.png) no-repeat;
+}
+.login .close{
+	display: block;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 10px;
+	right: 10px;	
+	background-position: 0 -616px;
+}
+.login h2{
+	width: 350px;
+	height: 45px;
+	padding: 30px 0 25px 0;
+	margin: 0 auto;
+	background-position: left 30px;
+	text-indent: -999px; 
+}
+.login .box{
+	width: 524px;
+	margin: 0 auto;
+}
+.login .other{
+	height: 66px;
+	line-height: 66px;
+	padding: 0 25px;
+	border-bottom: 1px solid #BFBFBF;
+	
+}
+.login .other span{
+	display: inline-block;	
+	font-size: 18px;
+	width: 200px;
+	float: left;
+}
+.login .other a{
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	margin-left: 22px;
+	text-indent: -999px;
+}
+.login .other a.wx{
+	background-position: 0 -526px;
+}
+.login .other a.sina{
+	background-position: -83px -526px;
+}
+.login .other a.qq{
+	background-position: -164px -526px;
+}
+.login .error{
+	color: red;
+	padding-top: 10px;
+	height: 24px;
+	text-align: center;
+}
+.login-form{
+	padding: 10px 25px;
+}
+.login-form .form-txt{
+	margin-bottom: 15px;
+}
+.login-form label{
+	display: inline-block;
+	width: 150px;
+	height: 38px;
+	line-height: 38px;
+	font-size: 16px;
+	
+}
+.login-form .p-input{
+	display: inline-block;
+	width: 213px;
+	height: 36px;
+	padding-left: 90px;
+	border: 1px solid #D8D8D8;
+	background: #FAFAFA url(../img/login/1login-icon.png) no-repeat;
+}
+.login-form .username .p-input{
+	background-position: 0 -435px;
+}
+.login-form .password .p-input{
+	background-position: 0 -474px;
+}
+.login-form .login-info{
+	font-size: 13px;
+	color: #888888;
+	margin-bottom: 20px;
+}
+.checkbox{
+	display: inline-block;
+	width: 195px;
+	margin-left: 90px;	
+}
+.checkbox span{	
+	display: inline-block;
+	width: 17px;
+	height: 17px;	
+	vertical-align: middle;
+	margin-right: 10px;
+	background-position: -87px -614px;
+}
+.checkbox span.checked{
+	background-position: -57px -614px;
+}
+.login .checkbox input{
+	display: none;
+}
+.login-form .login-info a{
+	color: #888888;
+	text-decoration: underline;
+}
+.submit-btn{
+	display: block;
+	width: 178px;
+	height: 40px;
+	line-height: 40px;
+	color: white;	
+	font-size: 18px;
+	background: red;
+	border: none;
+	margin: 0 auto;
+}

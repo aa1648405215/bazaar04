@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="commonCss/header.css" />
+		<link rel="stylesheet" href="commonCss/footer.css" />
+		<link rel="stylesheet" href="css/login.css" />
+		<link rel="stylesheet" href="css/register.css" />
+		<script type="text/javascript" src="js/jquery.js" ></script>
+		<script type="text/javascript" src="js/register.js" ></script>
+	</head>
+	<body>
+		<section id="header"></section>
+		<section id="re"></section>
+		<!--register  start-->
+		<div class="content">
+			<div class="register-cnt">
+				<h2>注册</h2>
+				<div class="other">
+					<span>使用已有账号登录</span>
+					<a href="" class="wx"></a>
+					<a href="" class="sina"></a>
+					<a href="" class="qq"></a>
+				</div>
+				<form class="form-box register-form">
+					<div class="items">
+						<label for>
+							用户名
+							<i>*</i>
+						</label>
+						<p class="common-input">
+							<input type="text" placeholder="用户名由4-16个字符组成"/>
+							<!--<span class="placeholder">用户名由4-16个字符组成</span>-->							
+						</p>
+						<span class="error01">用户格式不正确</span>
+					</div>
+					<div class="items">
+						<label for>
+							密码
+							<i>*</i>
+						</label>
+						<p class="common-input">
+							<input type="password" placeholder="6-20个字符（字母、数字、下划线）"/>
+							<!--<span class="placeholder">6-20个字符（字母、数字、下划线）</span>-->							
+						</p>
+						<span class="error01">密码格式不正确</span>
+					</div>
+					<div class="items pwd-items">
+						<label for>
+							确认密码
+							<i>*</i>
+						</label>
+						<p class="common-input">
+							<input type="password" placeholder="请输入确认的密码"/>
+							<!--<span class="placeholder">请输入确认的密码</span>-->							
+						</p>
+						<span class="error01">密码不一致</span>
+					</div>
+					<div class="items">
+						<label for>
+							Email
+							<i>*</i>
+						</label>
+						<p class="common-input">
+							<input type="text" placeholder="请输入正确的邮箱地址"/>
+							<!--<span class="placeholder">请输入正确的邮箱地址</span>-->							
+						</p>
+						<span class="error01">邮箱格式不正确</span>
+					</div>
+					<div class="items code-items">
+						<label for>
+							验证码
+							<i>*</i>
+						</label>
+						<p class="common-input">
+							<input type="text" />											
+						</p>
+						<span class="error"></span>
+						<img class="yzm" src="img/register/2index.png"/>
+						<a class="refresh-code">换一个</a>
+					</div>
+					<a class="common-btn submit-btn">立即注册</a>
+				</form>
+				<p class="bt">
+					已有BAZAAR帐号？
+					<a>登录</a>
+				</p>
+			</div>
+		</div>
+		<!--register  end-->
+		
+		<!--footer start-->
+		<section id="footer"></section>
+		<!--footer end-->
+	</body>
+</html>
