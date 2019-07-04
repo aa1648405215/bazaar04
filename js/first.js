@@ -10,8 +10,8 @@ $(function(){
 		var num =0;
 		setInterval(function(){
 			num++;
-			if(num==3){
-				num =0;				
+			if(num==4){
+				num =1;				
 				$('.style1').css('transition','0.5s none').css({'top':'0px'});	
 				num =0;	
 			}else{
